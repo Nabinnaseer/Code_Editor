@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#main-row{
+    margin-top: 50px;
+    border: 2px solid #333;
+}
+.editor-actions{
+    margin-left: 20px;
+    padding: 5px;
+}
+#copy-button,#save-button,#lock-button{
+    background-color: black;
+    padding: 7px 20px 7px 20px ;
+    color: white;
+    border: 2px solid #333;
+}
+#copy-button:hover,#save-button:hover,#lock-button:hover {
+    background-color: #333;
+    border: 2px solid black;
+}
+#editor {
+    width: 100%;
+    height: 500px;
+    border: 1px solid gray;
+    float: left;
+}
+
+#preview {
+    width: 100%;
+    height: 500px;
+    border: 1px solid gray;
+    background-color: #f9f9f9;
+    float: right;
+}
